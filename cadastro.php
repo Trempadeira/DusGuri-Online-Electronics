@@ -33,19 +33,20 @@ if (isset($_POST['submit'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" type="text/css" href="Cadastro.css?v=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/Cadastro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="imagex/png" href="assets/css/img/Logo Dus.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
 
-    <title>DNL's Drinks</title>
+    <title>DusGuri Online Electronics</title>
 </head>
 <body>
     <div id="background"></div>
     <section class="container-login">
     <div class="login">
         <div>
-            <img src="Logo (1).png" alt="logo">
+            <img src="assets/css/img/Logo Dus.png" alt="logo">
         </div>
 
         <form method="post">
@@ -54,7 +55,7 @@ if (isset($_POST['submit'])) {
             <input type="password" name="senha" placeholder="Senha" required>
             <label for="cars"></label>
         <select name="cars" id="cars" required>
-            <option value="" disabled selected hidden>Escolha um país</option>
+            <option value="pais" name="pais" disabled selected hidden>País</option>
             <option value="afeganistao">Afeganistão</option>
             <option value="albania">Albânia</option>
             <option value="alemanha">Alemanha</option>

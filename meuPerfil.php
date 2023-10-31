@@ -11,10 +11,11 @@ include('conexao.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <link rel="stylesheet" type="text/css" href="meuPerfil.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/meuPerfil.css?v1">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="imagex/png" href="assets/css/img/Logo Dus.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -34,9 +35,8 @@ include('conexao.php');
 
 <div class="informa">
     <h1>Meu Perfil</h1>
-    <h2>Usuário: <?php echo $user_id; ?></h2>
-    <h2>Nome: <?php echo $user_name; ?></h2>
-    <!-- Adicione outros campos de informações aqui -->
+    <h2>Usuário: <?php echo $usuario; ?></h2>
+    <h2>Nome: <?php echo $nome; ?></h2>
 </div>
     </section>
         
