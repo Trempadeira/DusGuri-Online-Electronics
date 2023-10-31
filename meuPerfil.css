@@ -1,0 +1,68 @@
+body{
+    overflow: hidden;
+}
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url("Fundo.png") no-repeat center;
+    background-size: cover;
+    filter: brightness(0.8);
+}
+
+.infoEsquerda{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.inform{
+    display: flex;
+    margin-top: 210px;
+    margin-left: 25px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E0E24;
+    width: 250px;
+    height: 500px;
+    z-index: 1;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+nav a{
+    padding-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.informa{
+    display: flex;
+    margin-top: -90px;
+    margin-left: 25px;
+    flex-direction: column;
+    background-color: #50406A;
+    width: 1540px;
+    height: 800px;
+    z-index: 1;
+}
+
+.informa h1{
+    padding-left: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    left: 0;
+}

@@ -1,0 +1,83 @@
+body{
+    overflow: hidden;
+}
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url("Fundo.png") no-repeat center;
+    background-size: cover;
+    filter: brightness(0.8);
+}
+.container-login{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.login input{
+    margin-top: 35px;
+    padding-left: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2B252E;
+    color: #F4F3EB;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.login img{
+    width: 140px;
+    height: auto;
+}
+
+input::placeholder{
+    color: #F8F8FF;
+    font-size: 15px;
+}
+
+form [type="submit"]{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    background-color: #73268D;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p{
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+}
+
+a{
+    color: #73268D;
+    text-decoration: none;
+    margin-left: 8px;
+}
