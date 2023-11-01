@@ -35,11 +35,11 @@ include('conexao.php');
 
 <div class="informa">
     <h1>Meu Perfil</h1>
-    <h2>Usuário: <?php echo $usuario; ?></h2>
-    <h2>Nome: <?php echo $nome; ?></h2>
+    <h2>Usuário: <?= $usuario ?></h2>
+    <h2>Nome: <?= $nome ?></h2>
 </div>
     </section>
         
         
 </body>
-</html>
+</html
