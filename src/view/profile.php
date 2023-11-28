@@ -49,8 +49,14 @@ if( isset($_GET["email"]) ) {
 
     <div class="informa">
         <h1>Meu Perfil</h1>
-        <h2>Usuário: <?= $_SESSION["user"]->getUser() ?></h2>
-        <h2>Email: <?= $_SESSION["user"]->getEmail() ?>
+        <h2>Usuário: <br> <?= $_SESSION["user"]->getUser() ?></h2>
+        <h2>Email: <br> <?= $_SESSION["user"]->getEmail() ?>
+        <h2>Senha: <br> <?= $_SESSION["user"]->getEmail() ?>
+        <h2>Telefone: <br> <?= $_SESSION["user"]->getEmail() ?>
+        <h2>Endereço: <br> <?= $_SESSION["user"]->getEmail() ?>
+        <h2>Data de nascimento: <br> <?= $_SESSION["user"]->getEmail() ?>
+        <h2>Genêro: <br> <?= $_SESSION["user"]->getEmail() ?>
+        <img class="imagem1" src="<?= ASSETS ?>/img/LogoEscrita.png" width="160" alt="logo">
     </div>
 </section>
 
